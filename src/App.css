@@ -1,0 +1,104 @@
+body {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+.border-box {
+   width: 75%;
+   padding: 3rem;
+   background-color: #23252C;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+}
+
+
+.container {
+  width: 317px; 
+  background-color: #1A1B21; 
+  font-family: 'Inter', san-serif;
+  text-align: center;
+  border-radius: 10px
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+h4 {
+  color: #F3BF99;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  margin: 5px 0px 5px 0px;
+}
+
+
+a {
+  text-decoration: none; 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: #F5F5F5;
+}
+
+.button-section {
+  display: flex;
+  padding: 1.5rem 0 0 0;
+  margin: 0 1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+button {
+  box-shadow: 0px 1px 2px 0px #0000000D;
+  border: 1px solid #D1D5DB;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+  
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+button > span { 
+  font-size: 14px;
+  line-height: 16px;
+  color: #374151;
+}
+
+.text-section {
+  margin: 2.5rem 2rem;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%; 
+  text-align: left;
+  color: #DCDCDC;    
+}
+
+.text-section > h4 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #F5F5F5;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
+  height: 64px;
+}
